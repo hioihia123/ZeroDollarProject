@@ -149,12 +149,5 @@ and (max-device-width : 480px) {
       background-attachment: fixed;
       background-size: cover;
     }
-    .video-play-button {
-      position: absolute;
-      z-index: 10;
-      top: 80%;
-      left: 100%;
-    }
-
 
 }
