@@ -142,11 +142,19 @@ body {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
-    body {
+    .body {
       background-image: url(sunset.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
     }
+    .video-play-button {
+      position: absolute;
+      z-index: 10;
+      top: 80%;
+      left: 100%;
+    }
+
+
 }
