@@ -140,10 +140,10 @@ body {
 }
 
 @media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
+and (min-device-width : 375px)
+and (max-device-width : 480px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
     .body {
-      background-image: url(sunset.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-attachment: fixed;
