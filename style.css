@@ -165,8 +165,12 @@ and (max-device-width : 667px)
 and (-webkit-min-device-pixel-ratio: 2) {
   .body {
     font-size: 10px;
+    background-size: 375px 667px;
   }
   .text {
     font-size: 10px;
+  }
+  .aftertext {
+    display: none;
   }
 }
