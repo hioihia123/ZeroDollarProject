@@ -53,4 +53,18 @@ function splitLetters(word) {
 changeWord();
 setInterval(changeWord, 4000);
 
-// // I DO NOT OWN THIS. I TAKE THIS COMPLETELY FROM SOMEONE AS A PRACTICE. PLEASE THE OWNER, IF YOU WANT TO TAKE DOWN THIS, CONTACT ME AND I WILL TAKE IT DOWN IMMEDIATELY. THANK YOU VERY MUCH //
+const cursor = document.querySelector('.cursor');
+
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+        })
+
+        document.addEventListener('click', () => {
+            cursor.classList.add("expand");
+
+            setTimeout(() => {
+                cursor.classList.remove("expand");
+            }, 500)
+        })
+// // I DO NOT OWN THIS. I TAKE THIS COMPLETELY FROM SOMEONE AS A PRACTICE. PLEAS
+/// E THE OWNER, IF YOU WANT TO TAKE DOWN THIS, CONTACT ME AND I WILL TAKE IT DOWN IMMEDIATELY. THANK YOU VERY MUCH //
