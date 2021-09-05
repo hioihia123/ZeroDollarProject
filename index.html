@@ -25,11 +25,14 @@
 </div>
 </body>
 <style>
-  
 button{
   border: none;
   border-radius: 15px;
   box-shadow: 0 0 8px rgb(207, 207, 207);
+}
+.dark-mode {
+  background-color: black;
+  color: white;
 }
 .wrapper {
     position: fixed;
@@ -126,6 +129,7 @@ button{
     transition: 0.2s;
     color: rgb(252, 237, 36);
     transform: scale(1.1);
+
 }
 @media only screen
 and (min-device-width : 375px)
@@ -153,7 +157,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     left: -5px;
     flex-direction: row;
   }
-
+  .body {
+    font-size: 30px;
+  }
 }
 </style>
 </head>
