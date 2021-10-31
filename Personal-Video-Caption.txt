@@ -1,0 +1,50 @@
+WEBVTT 
+1
+00:00:04.000 --> 00:00:09.000
+Hello, my name is Nguyen from Fossil Ridge High School
+
+2
+00:00:15.001 --> 00:00:21.00
+And this is my Personal Video
+
+3
+00:00:26.000 --> 00:00:32.000
+I specialize in 3 programming languages:
+
+4
+00:00:35.500 --> 00:00:40.000
+Javascript
+
+5
+00:00:43.500 --> 00:00:46.500
+HTML
+
+6
+00:00:50.500 --> 00:00:56.000
+CSS
+
+7
+00:01:01.500 --> 00:01:12.000
+I'm able to make any kinds of websites in the world :D.
+
+8
+00:01:15.500 --> 00:01:20.000
+I am currently self-learning these programming language
+
+9
+00:01:23.500 --> 00:01:26.000
+Java [ I called it "hot coffee code" ]
+
+10
+00:01:27.500 --> 00:01:32.000
+Python [ remind me of snake :( ]
+
+11
+00:01:33.500 --> 00:01:36.000
+C plus plus [ aka C++ ]
+
+12
+00:01:41.500 --> 00:01:46.000
+PHP [ Tough one to learn :) ]
+
+
